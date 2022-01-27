@@ -1,0 +1,166 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #dcdcde;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    background-color: rgb(185, 192, 192);
+    padding: 10px;
+}
+.logo img{
+    width: 30px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+}
+
+ul li{
+    
+    justify-content: flex;
+}
+
+ul li a{
+    background-color: rgb(159, 207, 207);
+    text-decoration: none;
+    margin: 2px;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+ul li a:hover{
+    background-color: rgb(86, 165, 165);
+    margin: 2px;
+    padding: 4px;
+}
+
+.active a{
+    background-color: rgb(124, 184, 124);
+}
+
+.cover img{
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+    transition: transform .2s;
+    background-color: #fff;
+}
+
+small{
+    color: #000;
+    background: rgb(211, 199, 199);
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-size: 15px;
+}
+
+.article{
+    margin: 10px 0;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.article:hover{
+    background-color: rgb(250, 243, 243);
+    border: 2px solid black;
+    padding: 10px;
+}
+.article img{
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article h3:hover{
+    color: rgb(61, 61, 61);
+}
+
+.article a{
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(250, 243, 243);
+    padding: 2px;
+    margin: 2px;
+}
+a:hover{
+    background-color: rgb(86, 165, 165);
+    font-weight: 600;
+    padding: 1px;
+
+}
+
+.cart{
+    display: flex;
+    margin: 10px 0;
+}
+.cart1, .cart2, .cart3{
+    width: 32%;
+    padding: 50px 50px;
+    text-align: center;
+    color: #fff;
+}
+.cart1 h3, .cart2 h3, .cart3 h3{
+    font-size: 29px;
+    }
+.cart1 p, .cart2 p, .cart3 p{
+font-size: 15px;
+}
+.cart1{
+    background-color: rgb(42, 42, 44);
+}
+.cart1:hover{
+    background-color: rgb(17, 17, 17);
+}
+.cart2{
+    background-color: rgb(88, 180, 192);
+}
+.cart2:hover{
+    background-color: rgb(67, 155, 167);
+}
+.cart3{
+    background-color: rgb(20, 151, 160);
+}
+.cart3:hover{
+    background-color: rgb(7, 97, 104);
+}
+
+
+form input{
+    margin: 5px;
+    width: 50%;
+    padding: 5PX;
+}
+form button{
+    padding: 5px;
+    background-color: rgb(185, 214, 178);
+}
+
+.icon{
+    font-size: xx-large;
+}
+
+footer{
+    background-color: rgb(185, 192, 192);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.about, .call{
+    text-align: center;
+    padding: 40px;
+    font-size: 45px;
+    background-color: #fff;
+    margin: 20px 0;
+}
